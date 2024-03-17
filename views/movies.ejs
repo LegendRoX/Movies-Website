@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='../stylesheets/style.css' />
+
+    <title>Document</title>
+</head>
+<body>
+        <div>
+            <% movies.forEach(movie => { %>
+                <div class="movie-container">
+                    <div class="movie-title">Title:- <%= movie.title %> </div>
+                    <div class="movie-genre">Genres:- <%= movie.genres %></div>
+                    <div class="movie-date">Released Year:- <%= movie.year %></div>
+                    <div class="movie-language">Language:- <%= movie.languages %></div>
+                    <br />
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+
+        
+</body>
+</html>

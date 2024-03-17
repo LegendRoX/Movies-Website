@@ -1,0 +1,46 @@
+body
+{
+    background-color: #BFAE48;
+    font-size: large;
+    margin-top: 7em;
+    padding-left: 7em;
+    color: darkolivegreen;
+    font-family:  "Trebuchet MS";
+}
+.movie-container
+{
+    color: #2F4858;
+    text-align: left;
+}
+h1 {
+    font-size: 3em; 
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 10px; 
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+th
+{
+    border: solid black;
+}
+
+td
+{
+    border: solid black;
+}

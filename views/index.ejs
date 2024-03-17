@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='../stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>
+    <%= title %>
+  </h1>
+  <h2>Welcome to Wheel Theaters <% title %></h2>
+  <button id="btn"><a href="/db/collections">List of collections</a></button>
+    <p></p>
+    <h3>Movies Categories<h3>
+    <p>
+    <button id="btn"><a href="/db/movies?genres[]=Action">Action </a></button>
+    <button id="btn"><a href="/db/movies?genres[]=Comedy">Comedy</a></button>
+    <button id="btn"><a href="/db/movies?genres[]=Drama">Drama</a></button>
+    <button id="btn"><a href="/db/movies?genres[]=Horror">Horror</a></button>
+    <button id="btn"><a href="/db/movies?genres[]=Drama&genres[]=Comedy">Comedy & Drama</a></button>
+    <button id="btn"><a href="/db/movies?genres[]=Horror&genres[]=Comedy">Horror & Comedy</a></button>
+    </p>
+  <p>Written by: <em>
+      <%= author %>
+    </em>
+  </p>
+</body>
+
+</html>
